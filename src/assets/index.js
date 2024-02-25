@@ -21,19 +21,25 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import laravel from './tech/laravel.png';
+import sql from './tech/sql.png';
+import php from './tech/php2.png';
+import jquery from './tech/jquery2.png';
+import bootstrap from './tech/bootstrap.png';
+import material from './tech/material.png';
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import vu from "./company/vu.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import laibaProfile from "./Laiba-profile.png";
-import laibaLogo from "./Laiba-logo.png";
-import laibaLogo1 from "./Laiba-logo1.png";
-import laiba from "./Laiba.png";
+import lFire from "./l-fire.png";
+import lBlack from "./l-black.png";
 export {
   logo,
   backend,
@@ -63,8 +69,13 @@ export {
   carrent,
   jobit,
   tripguide,
-  laibaProfile,
-  laibaLogo,
-  laibaLogo1,
-  laiba
+  lFire,
+  lBlack,
+  vu,
+  laravel,
+  sql,
+  php,
+  jquery,
+  bootstrap,
+  material
 };
