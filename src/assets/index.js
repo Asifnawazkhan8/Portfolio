@@ -40,6 +40,8 @@ import tripguide from "./tripguide.png";
 
 import lFire from "./l-fire.png";
 import lBlack from "./l-black.png";
+
+import view from './view2.png'
 export {
   logo,
   backend,
@@ -77,5 +79,6 @@ export {
   php,
   jquery,
   bootstrap,
-  material
+  material,
+  view
 };

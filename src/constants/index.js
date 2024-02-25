@@ -17,7 +17,7 @@ import {
     vu,
     laravel, sql, php, jquery,
     bootstrap,
-    material,
+  material,
     
   } from "../assets";
   
@@ -112,64 +112,13 @@ import {
   ];
   
   const experiences = [
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: starbucks,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    
     {
       title: "Laravel Developer",
       company_name: "VU Software house",
       icon: vu,
       iconBg: "#E6DEDD",
-      date: "Nav 2023 - Oct 2023",
+      date: "Nav 2022 - Oct 2023",
       points: [
         "Developed and maintained complex web applications using Laravel, PHP, MySQL, HTML/CSS, and JavaScript.",
         "Collaborated with cross-functional teams to gather requirements and translate them into technical specifications.",
@@ -213,67 +162,70 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "PAASA",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The PAASA (Pakistan Australian Association of South Australia) website is a dynamic platform crafted using cutting-edge technologies such as React.js, React Routing, and Reactstrap, seamlessly integrated with HTML, SCSS, jQuery, and Material UI. Its sleek design, converted from an XD file, offers users an immersive experience.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Reactstrap",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Material-UI",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/laibaabbas/paasa",
+      web_link:"https://paasa.vercel.app"
     },
     {
-      name: "Job IT",
+      name: "Logitrago",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
+        "The static demo website illustrates the prowess of a logistics service provider in Air Freight, Shipping Freight, and Road Freight.Captivating CSS animations, offering a seamless user experience and responsiveness. This platform serves as a compelling demonstration of the company's capabilities in the transportation industry.",
+       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Jquery",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/laibaabbas/logitrago",
+      web_link:"https://logitrago.vercel.app/"
     },
     {
-      name: "Trip Guide",
+      name: "STMS",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Synopsis and Thesis Management System(STMS) is a centralized platform for the Virtual University of Pakistan, streamlining synopsis and thesis-related activities.The system provides a comprehensive platform for managing the process of submitting, reviewing, scheduling meeting, feedback provision, and approving synopses.",
       tags: [
         {
-          name: "nextjs",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PHP Blade templates",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "",
+      web_link:""
     },
   ];
   
