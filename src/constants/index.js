@@ -18,6 +18,7 @@ import {
     laravel, sql, php, jquery,
     bootstrap,
   material,
+  linkedin,
     
   } from "../assets";
   
@@ -29,6 +30,15 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "skills",
+      title: "Skills",
+    },
+
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -228,5 +238,12 @@ import {
       web_link:""
     },
   ];
-  
+const links = [
+  {
+    name: 'linkedin',
+    link: 'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
+    icon:linkedin
+
+  },
+];
   export { services, technologies, experiences, testimonials, projects };

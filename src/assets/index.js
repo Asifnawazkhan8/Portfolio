@@ -41,7 +41,12 @@ import tripguide from "./tripguide.png";
 import lFire from "./l-fire.png";
 import lBlack from "./l-black.png";
 
-import view from './view2.png'
+import view from './view2.png';
+
+import linkedin from './sidelink/linkedin2.png';
+import mail from './sidelink/mail.png';
+import closeRed from './sidelink/cross.png';
+import down from './sidelink/cvDown.png'
 export {
   logo,
   backend,
@@ -80,5 +85,9 @@ export {
   jquery,
   bootstrap,
   material,
-  view
+  view,
+  linkedin,
+  closeRed,
+  down,
+  mail
 };

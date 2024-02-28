@@ -1,15 +1,18 @@
 import  { BrowserRouter }from 'react-router-dom';
 
+import { Toaster} from 'react-hot-toast';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from './components';
+import SideLinks from './components/SideLinks';
 
 const App = ()=> {
   
   return (
     <>
+        <Toaster/>
       <BrowserRouter>
         <div className='relative z-0 bg-primary'>
           <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar />
+            <Navbar />
             <Hero/>
           </div>
           <About />
@@ -21,6 +24,8 @@ const App = ()=> {
             <Contact />
             <StarsCanvas/>
           </div>
+
+          <SideLinks/>
       </div>
       </BrowserRouter>
       

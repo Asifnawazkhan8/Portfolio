@@ -48,6 +48,16 @@
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
+.gradient-btn{
+  background: 
+        linear-gradient(#000000, #000000) padding-box,
+        linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) border-box;
+  background: 
+  -webkit-linear-gradient(#000000, #000000) padding-box,
+  -webkit-linear-gradient(90.13deg,  #bf61ff 97.5%,#00cea8 1.9%) border-box;
+      border: 1px solid transparent;
+      display: inline-block;
+}
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
@@ -201,4 +211,64 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+.tooltip i{
+  color: #bf61ff;
+  font-size: 23px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 4px 5px;
+  position: relative;
+}
+.linkdin i:hover{
+  color: #0077b5 ;
+}
+.github i:hover{
+  color: #2b3137;
+}
+.mail i:hover{
+  color: #c71610;
+}
+.d-cv i:hover{
+  color: #804dee;
+}
+
+.tooltipText {
+  background-color:  #fff;
+  position: absolute;
+  right: 120%;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0;
+  box-shadow: 2px 3px 3px gray;
+  transition: all .5s;
+}
+.ld{
+  color: #0077b5 ;
+}
+.git{
+  color: #2b3137;
+}
+.ml{
+  color: #c71610;
+}
+.cv{
+  color: #804dee;
+}
+.tooltipText::after {
+  content: '';
+  border-width: 5px;
+  border-style: solid;
+  border-color:  transparent transparent transparent #fff;
+  position: absolute;
+  left: 100%;
+  top: 40%;
+  margin-left: 0%;
+}
+.tooltip:hover .tooltipText{
+  opacity: 1;
+  transform: translateX(-10px);
 }

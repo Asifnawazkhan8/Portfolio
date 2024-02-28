@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import {motion} from 'framer-motion'
 import emailjs from '@emailjs/browser';
-
+import toast from 'react-hot-toast';
 import { styles } from '../styles';
 import { fadeIn, slideIn} from '../utils/motion'
 import { SectionWrapper } from '../hoc';
@@ -46,8 +46,8 @@ const Contact = () => {
     )
       .then(() => {
         setLoading(false)
-        alert('Thank you. I will get back to you.')
-
+        toast.success('Email Send Successfully.')
+        toast.success('Thank You')
         setForm({
           name: '',
           email: '',
@@ -56,7 +56,7 @@ const Contact = () => {
       }, (error) => {
         setLoading(false);
         console.error(error);
-        alert("Something went wrong")
+        toast.error("Something went wrong")
     })
   }
 
@@ -87,7 +87,7 @@ const Contact = () => {
             <input
               type="text"
               name='name'
-              // value={form.name}
+              value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 text-white
@@ -102,7 +102,7 @@ const Contact = () => {
               type="email"
               name='email'
               required
-              // value={form.email}
+              value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 text-white
@@ -118,7 +118,7 @@ const Contact = () => {
               minLength={10}
               rows="7"
               name='message'
-              // value={form.message}
+              value={form.message}
               onChange={handleChange}
               placeholder="What do you what to say?"
               className="bg-tertiary py-4 px-6 text-white

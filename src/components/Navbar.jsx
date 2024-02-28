@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={`${styles.paddingX} w-full flex
-      items-center py-5 fixed top-0 z-20 bg-primary `}>
+      items-center  py-5 fixed top-0 z-20 bg-primary `}>
         
         <div className="w-full flex 
         justify-between items-center max-w-7xl mx-auto">
@@ -29,7 +29,7 @@ const Navbar = () => {
             <p className='text-white text-[18px] 
             font-bold cursor-pointer flex'>
               Laiba &nbsp;
-              <span className='sm:block hidden'>| Web Developer</span>
+              <span className='lg:block hidden'>| Web Developer</span>
             </p>
           </Link>
           <ul className='list-none 
@@ -46,6 +46,12 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <div className='lg:block hidden' >
+            <a href="/laibaAbbas-CV.pdf" download
+              className='gradient-btn rounded-md py-2 px-3 
+               text-white'
+            ><span className='rounded-md'>Download CV</span></a>
+          </div>
           <div className='sm:hidden flex flex-1 
           justify-end items-center'>
             <img 
@@ -76,9 +82,13 @@ const Navbar = () => {
                     <a href={`#${link.id}`}>{ link.title }</a>
                   </li>
                 ))}
+                
               </ul>
+              
             </div>
           </div>
+
+          
          </div>
       </nav>
     
