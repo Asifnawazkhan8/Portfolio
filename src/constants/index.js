@@ -18,6 +18,9 @@ import {
     laravel, sql, php, jquery,
     bootstrap,
   material,
+  paasa,
+  logitrago,
+  stms,
     
   } from "../assets";
   
@@ -188,7 +191,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: paasa,
       source_code_link: "https://github.com/laibaabbas/paasa",
       web_link:"https://paasa.vercel.app"
     },
@@ -210,7 +213,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: logitrago,
       source_code_link: "https://github.com/laibaabbas/logitrago",
       web_link:"https://logitrago.vercel.app/"
     },
@@ -232,7 +235,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: stms,
       source_code_link: "",
       web_link:""
     },

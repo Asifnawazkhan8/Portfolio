@@ -39,7 +39,9 @@ import lBlack from "./l-black.png";
 
 import view from './view2.png';
 
-
+import paasa from './paasa.png';
+import logitrago from './logitrago.png';
+import stms from './stms.png'
 export {
   logo,
   backend,
@@ -75,4 +77,7 @@ export {
   bootstrap,
   material,
   view,
+  paasa,
+  logitrago,
+  stms
 };
