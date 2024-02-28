@@ -40,7 +40,14 @@ const ExperienceCard = ({experience}) => (
       <p className='text-secondary text-[16px] 
       font-semibold' style={{margin:0}} >
         {experience.company_name}
+      
       </p>
+      <a href={experience.experiences_letter}
+        className='underline' target="_blank"
+        rel="experiences_letter">
+        Download Experiences Letter
+        <i className="fa fa-cloud-download ml-2" aria-hidden="true"></i>
+        </a>
     </div>
 
     <ul className="mt-5 list-disc ml-5 space-y-2">

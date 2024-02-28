@@ -128,6 +128,7 @@ import {
     {
       title: "Laravel Developer",
       company_name: "VU Software house",
+      experiences_letter:"/VUSWH_experience_letter.pdf",
       icon: vu,
       iconBg: "#E6DEDD",
       date: "Nav 2022 - Oct 2023",

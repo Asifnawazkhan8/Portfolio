@@ -51,12 +51,13 @@
 .gradient-btn{
   background: 
         linear-gradient(#000000, #000000) padding-box,
-        linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) border-box;
+        linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) ;
   background: 
   -webkit-linear-gradient(#000000, #000000) padding-box,
-  -webkit-linear-gradient(90.13deg,  #bf61ff 97.5%,#00cea8 1.9%) border-box;
+  -webkit-linear-gradient(90.13deg,   #00cea8 1.9%, #bf61ff 97.5%) ;
       border: 1px solid transparent;
       display: inline-block;
+      box-shadow: 1px 2px 6px #bf61ff;
 }
 
 .orange-text-gradient {

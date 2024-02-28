@@ -48,9 +48,10 @@ const Navbar = () => {
           </ul>
           <div className='lg:block hidden' >
             <a href="/laibaAbbas-CV.pdf" download
-              className='gradient-btn rounded-md py-2 px-3 
+              className='gradient-btn rounded-[20px] py-2 px-3 
                text-white'
-            ><span className='rounded-md'>Download CV</span></a>
+            ><span className='rounded-[20px]'>Download CV
+              <i className="fa fa-cloud-download ml-2" aria-hidden="true"></i></span></a>
           </div>
           <div className='sm:hidden flex flex-1 
           justify-end items-center'>
