@@ -23,11 +23,11 @@ const SideLinks = () => {
           <div className='px-1 py-4  flex-col gap-5 flex justify-center
              items-center
              rounded-[30px] bg-tertiary'>
-               <div className='tooltip linkdin' target="_blank"
+               <a className='tooltip linkdin' target="_blank"
                      href='https://www.linkedin.com/in/laiba-abbas-8938a01a5/'>
                 <span className="tooltipText ld">Linkedin</span>
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
-             </div>
+             </a>
              <a className='tooltip github'
                      href='https://github.com/laibaabbas/' target="_blank">
                 <span className="tooltipText git">GitHub</span>
