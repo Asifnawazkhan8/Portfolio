@@ -28,10 +28,6 @@ import jquery from './tech/jquery2.png';
 import bootstrap from './tech/bootstrap.png';
 import material from './tech/material.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import vu from "./company/vu.png";
 
 import carrent from "./carrent.png";
@@ -43,10 +39,7 @@ import lBlack from "./l-black.png";
 
 import view from './view2.png';
 
-import linkedin from './sidelink/linkedin2.png';
-import mail from './sidelink/mail.png';
-import closeRed from './sidelink/cross.png';
-import down from './sidelink/cvDown.png'
+
 export {
   logo,
   backend,
@@ -69,10 +62,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -86,8 +75,4 @@ export {
   bootstrap,
   material,
   view,
-  linkedin,
-  closeRed,
-  down,
-  mail
 };

@@ -18,7 +18,6 @@ import {
     laravel, sql, php, jquery,
     bootstrap,
   material,
-  linkedin,
     
   } from "../assets";
   
@@ -240,9 +239,11 @@ import {
   ];
 const links = [
   {
-    name: 'linkedin',
+    name: 'Linkedin',
     link: 'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
-    icon:linkedin
+    icon: 'fa-linkedin',
+    span_class: 'ld',
+    class:''
 
   },
 ];

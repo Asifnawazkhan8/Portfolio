@@ -3,10 +3,9 @@ import { motion } from 'framer-motion'
 
 import { slideIn, } from '../utils/motion'
 
-import {close,menu, linkedin, closeRed, mail, down} from '../assets';
 import { useState } from 'react';
 const SideLinks = () => {
-    const [open, setOpen] = useState(true);
+   const [open, setOpen] = useState(true);
  return (
     <div
          className='fixed md:mr-6 mr-2 my-auto right-0
@@ -24,35 +23,27 @@ const SideLinks = () => {
           <div className='px-1 py-4  flex-col gap-5 flex justify-center
              items-center
              rounded-[30px] bg-tertiary'>
-               <div className='tooltip linkdin'
-                     onClick={() => window.open(
-                         'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
-                         "_blank")}>
+               <div className='tooltip linkdin' target="_blank"
+                     href='https://www.linkedin.com/in/laiba-abbas-8938a01a5/'>
                 <span className="tooltipText ld">Linkedin</span>
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
              </div>
-             <div className='tooltip github'
-                     onClick={() => window.open(
-                         'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
-                         "_blank")}>
+             <a className='tooltip github'
+                     href='https://github.com/laibaabbas/' target="_blank">
                 <span className="tooltipText git">GitHub</span>
                 <i className="fa fa-github"></i>
-               </div>
-               <div className='tooltip mail'
-                     onClick={() => window.open(
-                         'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
-                         "_blank")}>
+               </a>
+               <a className='tooltip mail' target="_blank"
+                     href="mailto:laibaabbasv@gmail.com">
                 <span className="tooltipText ml">Email</span>
                 <i className="fa fa-envelope-o" aria-hidden="true"></i>
-             </div>
+             </a>
              
-             <div className='tooltip d-cv'
-                     onClick={() => window.open(
-                         'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
-                         "_blank")}>
+             <a className='tooltip d-cv'
+                     href="/laibaAbbas-CV.pdf" download >
                 <span className="tooltipText cv">Download_CV</span>
                 <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
-               </div>
+               </a>
                 </div>
             
          </motion.div>
