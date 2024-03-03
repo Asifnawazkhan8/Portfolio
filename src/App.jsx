@@ -1,7 +1,7 @@
 import  { BrowserRouter }from 'react-router-dom';
 
 import { Toaster} from 'react-hot-toast';
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from './components';
+import { About, Contact, Experience, Hero, Navbar, Skills, StarsCanvas, Works } from './components';
 import SideLinks from './components/SideLinks';
 
 const App = ()=> {
@@ -17,9 +17,8 @@ const App = ()=> {
           </div>
           <About />
           <Experience />
-          <Tech />
+          <Skills/>
           <Works />
-          {/* <Feedbacks /> */}
           <div className="relative z-0">
             <Contact />
             <StarsCanvas/>

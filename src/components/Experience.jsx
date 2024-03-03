@@ -45,7 +45,7 @@ const ExperienceCard = ({experience}) => (
       <a href={experience.experiences_letter}
         className='underline' target="_blank"
         rel="experiences_letter">
-        Download Experiences Letter
+        Experiences Letter
         <i className="fa fa-cloud-download ml-2" aria-hidden="true"></i>
         </a>
     </div>
