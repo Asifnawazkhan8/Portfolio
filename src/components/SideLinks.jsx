@@ -24,23 +24,18 @@ const SideLinks = () => {
              items-center
              rounded-[30px] bg-tertiary'>
                <a className='tooltip linkdin' target="_blank"
-                     href='https://www.linkedin.com/in/laiba-abbas-8938a01a5/'>
+                     href='https://www.linkedin.com/in/asifnawazkhan8'>
                 <span className="tooltipText ld">Linkedin</span>
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
              </a>
              <a className='tooltip github'
-                     href='https://github.com/laibaabbas/' target="_blank">
+                     href='https://github.com/Asifnawazkhan8' target="_blank">
                 <span className="tooltipText git">GitHub</span>
                 <i className="fa fa-github"></i>
                </a>
-               <a className='tooltip mail' target="_blank"
-                     href="mailto:laibaabbasv@gmail.com">
-                <span className="tooltipText ml">Email</span>
-                <i className="fa fa-envelope-o" aria-hidden="true"></i>
-             </a>
              
              <a className='tooltip d-cv'
-                     href="/laibaAbbas-CV.pdf" download >
+                     href="/CV.pdf" download >
                 <span className="tooltipText cv">Download_CV</span>
                 <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
                </a>

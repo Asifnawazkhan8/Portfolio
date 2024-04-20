@@ -28,7 +28,7 @@ const Navbar = () => {
               className='w-9 h-9 object-contain' />
             <p className='text-white text-[18px] 
             font-bold cursor-pointer flex'>
-              Laiba &nbsp;
+              Asif &nbsp;
               <span className='lg:block hidden'>| Web Developer</span>
             </p>
           </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className='lg:block hidden' >
-            <a href="/laibaAbbas-CV.pdf" download
+            <a href="/CV.pdf" download
               className='gradient-btn rounded-[20px] py-2 px-3 
                text-white'
             ><span className='rounded-[20px]'>Download CV

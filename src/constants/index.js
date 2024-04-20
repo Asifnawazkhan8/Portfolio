@@ -11,16 +11,25 @@ import {
     reactjs,
     tailwind,
     git,
-    carrent,
+    angular,
+    vue,
+    django,
     jobit,
     tripguide,
-    vu,
+    gharfar,
+    ifort,
     laravel, sql, php, jquery,
     bootstrap,
   material,
   paasa,
   logitrago,
   stms,
+  mongodb,
+  nodejs,
+  ims,
+  offplan,
+  qasar,
+  vixion,
     
   } from "../assets";
   
@@ -97,16 +106,28 @@ import {
       icon: reactjs,
     },
     {
+      name: "Angular JS",
+      icon: angular,
+    },
+    {
+      name: "Vue JS",
+      icon: vue,
+    },
+    {
       name: "laravel",
       icon: laravel,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Django",
+      icon: django,
     },
     {
-      name: "Material UI ",
-      icon: material,
+      name: "Tailwind CSS",
+      icon: nodejs,
+    },
+    {
+      name: " Mongo DB ",
+      icon: mongodb,
     },
     {
       name: "php",
@@ -126,20 +147,35 @@ import {
   const experiences = [
     
     {
-      title: "Laravel Developer",
-      company_name: "VU Software house",
-      experiences_letter:"/VUSWH_experience_letter.pdf",
-      icon: vu,
+      title: "Web Developer",
+      company_name: "Gharfar Vacation Homes Rental LLC Dubai",
+      icon: gharfar,
       iconBg: "#E6DEDD",
-      date: "Nav 2022 - Oct 2023",
+      date: "Sep 2022 - Feb 2024",
       points: [
-        "Developed and maintained complex web applications using Laravel, PHP, MySQL, HTML/CSS, and JavaScript.",
+        "Developed and maintained complex web applications using Laravel, PHP,  MySQL, HTML/CSS, JavaScript and ReactJs",
         "Collaborated with cross-functional teams to gather requirements and translate them into technical specifications.",
         "Implemented responsive and user-friendly front-end interfaces, ensuring optimal performance across different devices.",
-        "Designed and optimized database schemas, queries, and APIs for efficient data retrieval and manipulation.",
-        "Integrated third-party APIs and services to enhance application functionality.",
-        "Conducted code reviews, identified bugs, and implemented necessary fixes to ensure high-quality code standards.",
-        "Applied object-oriented programming principles for code modularity and maintainability.",
+        "Designed and optimized database schemas, queries, and APIs for efficient data retrieval and manipulation.Designed and optimized database schemas, queries, and APIs for efficient data retrieval and manipulation.",
+        "Integrated third-party APIs and services to enhance application functionality. Conducted code reviews, identified bugs, and implemented necessary fixes to ensure high-quality code standards.",
+        "Applied object-oriented programming principles for code modularity and maintainability",
+        "Utilized Git and Gitlab for version control.",
+        "Communicated with stakeholders to ensure software solutions met their specific needs.",
+      ],
+    },
+    {
+      title: "Jr Front-End Developer",
+      company_name: "IFORT Services Pvt LTD Pakistan",
+      icon: ifort,
+      iconBg: "#E6DEDD",
+      date: "Aug 2020 - Sep 2022",
+      points: [
+        "Developed and maintained complex web applications using Laravel, PHP,  MySQL, HTML/CSS, JavaScript and ReactJs",
+        "Collaborated with cross-functional teams to gather requirements and translate them into technical specifications.",
+        "Implemented responsive and user-friendly front-end interfaces, ensuring optimal performance across different devices.",
+        "Designed and optimized database schemas, queries, and APIs for efficient data retrieval and manipulation.Designed and optimized database schemas, queries, and APIs for efficient data retrieval and manipulation.",
+        "Integrated third-party APIs and services to enhance application functionality. Conducted code reviews, identified bugs, and implemented necessary fixes to ensure high-quality code standards.",
+        "Applied object-oriented programming principles for code modularity and maintainability",
         "Utilized Git and Gitlab for version control.",
         "Communicated with stakeholders to ensure software solutions met their specific needs.",
       ],
@@ -175,76 +211,98 @@ import {
   
   const projects = [
     {
-      name: "PAASA",
+      name: "Auto User Spare Parts Project",
       description:
-        "The PAASA (Pakistan Australian Association of South Australia) website is a dynamic platform crafted using cutting-edge technologies such as React.js, React Routing, and Reactstrap, seamlessly integrated with HTML, SCSS, jQuery, and Material UI. Its sleek design, converted from an XD file, offers users an immersive experience.",
+        "Qasral hasna is auto used spare parts company who have requirement that customer want to see the company website that which product is available I alone handle the whole website design the front-end and the back-end of this website in 2 month of periods cause I have facing too much difficulties I used new language for this I use NodeJs and EJs for this project and use database Mongo Db, using Niginx web server. In this project the client is easily upload his auto parts and easily maintain the spare parts on client demand I make a car menu also to sell his car on this portal.",
       tags: [
         {
-          name: "React",
+          name: "Ejs",
           color: "blue-text-gradient",
         },
         {
-          name: "Reactstrap",
+          name: "Node Js",
           color: "green-text-gradient",
         },
         {
-          name: "Material-UI",
+          name: "Mongo DB",
           color: "pink-text-gradient",
         },
       ],
-      image: paasa,
-      source_code_link: "https://github.com/laibaabbas/paasa",
-      web_link:"https://paasa.vercel.app"
+      image: qasar,
+      source_code_link: "https://github.com/Asifnawazkhan8/Auto-usedparts-project",
+      web_link:"https://www.qasralhasna.ae/"
     },
     {
-      name: "Logitrago",
+      name: "Real Estate Project",
       description:
-        "The static demo website illustrates the prowess of a logistics service provider in Air Freight, Shipping Freight, and Road Freight.Captivating CSS animations, offering a seamless user experience and responsiveness. This platform serves as a compelling demonstration of the company's capabilities in the transportation industry.",
+        "  This project is for Real Estate to put the client properties in this website for selling and rental purpose in this website we adding off plan to add that properties which is upcoming and build very soon I design this website in Vue js in this project I work as front-end developer and the back-end work is perform by the back-end developer later the company goes in crisis so they didn’t upload the website so therefore the website is not going to live I have the source code of that website.",
        tags: [
         {
-          name: "HTML",
+          name: "HTML/Bootstrap/CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "Jquery",
+          name: "Php",
           color: "pink-text-gradient",
         },
       ],
-      image: logitrago,
-      source_code_link: "https://github.com/laibaabbas/logitrago",
-      web_link:"https://logitrago.vercel.app/"
+      image: vixion,
+      source_code_link: "https://github.com/Asifnawazkhan8/Real-Estate",
+      web_link:"https://vixioncapital.ae/"
     },
     {
-      name: "STMS",
+      name: "Offplan Project",
       description:
-        "Synopsis and Thesis Management System(STMS) is a centralized platform for the Virtual University of Pakistan, streamlining synopsis and thesis-related activities.The system provides a comprehensive platform for managing the process of submitting, reviewing, scheduling meeting, feedback provision, and approving synopses.",
+        "Offplan Project is an look like an inventory website for uploading too many properties in this platform and this platform remind all the properties it look like an search engine for uploading properties this project is the holiday home company the client want that i have too many properties i need a system to save all the data its easy to use and easy to maintain and the client give me a good feedback about this project .",
       tags: [
         {
-          name: "Laravel",
+          name: "Angular.js",
           color: "blue-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "Mongo DB",
           color: "green-text-gradient",
         },
         {
-          name: "PHP Blade templates",
+          name: "from the Scratch",
           color: "pink-text-gradient",
         },
       ],
-      image: stms,
-      source_code_link: "",
+      image: offplan,
+      source_code_link: "https://github.com/Asifnawazkhan8/Offplan",
+      web_link:""
+    },
+    {
+      name: "Inventory Managment System",
+      description:
+        "The Inventory website illustrates the prowess of a Storage service provide to Client, to easily maintain the stock of the inventory .Captivating CSS animations, offering a seamless user experience and responsiveness. This platform serves as a compelling demonstration of the company's capabilities in the Inventory industry.",
+       tags: [
+        {
+          name: "HTML / CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React / My Sql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Laravel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ims,
+      source_code_link: "https://github.com/Asifnawazkhan8/ims",
       web_link:""
     },
   ];
 const links = [
   {
     name: 'Linkedin',
-    link: 'https://www.linkedin.com/in/laiba-abbas-8938a01a5/',
+    link: 'https://www.linkedin.com/in/asifnawazkhan8/',
     icon: 'fa-linkedin',
     span_class: 'ld',
     class:''

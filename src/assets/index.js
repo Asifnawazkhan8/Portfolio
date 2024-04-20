@@ -17,18 +17,22 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import tailwind from "./tech/nodejs.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import laravel from './tech/laravel.png';
+import angular from './tech/angular.png';
+import vue from './tech/vue.png';
+import django from './tech/django.png';
 import sql from './tech/sql.png';
 import php from './tech/php2.png';
 import jquery from './tech/jquery2.png';
 import bootstrap from './tech/bootstrap.png';
 import material from './tech/material.png';
 
-import vu from "./company/vu.png";
+import gharfar from "./company/gharfar.png";
+import ifort from "./company/ifort.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -41,7 +45,11 @@ import view from './view2.png';
 
 import paasa from './paasa.png';
 import logitrago from './logitrago.png';
-import stms from './stms.png'
+import ims from './ims.png';
+import stms from './stms.png';
+import offplan from './offplan.png';
+import qasar from './qasar.png';
+import vixion from './vc.png'
 export {
   logo,
   backend,
@@ -60,8 +68,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
+  redux,
   typescript,
   threejs,
   carrent,
@@ -69,8 +77,12 @@ export {
   tripguide,
   lFire,
   lBlack,
-  vu,
+  gharfar,
+  ifort,
   laravel,
+  angular,
+  vue,
+  django,
   sql,
   php,
   jquery,
@@ -79,5 +91,9 @@ export {
   view,
   paasa,
   logitrago,
-  stms
+  ims,
+  stms,
+  offplan,
+  qasar,
+  vixion,
 };

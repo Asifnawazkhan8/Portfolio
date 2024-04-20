@@ -38,26 +38,26 @@
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #cc0101 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #cc0101 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #cc0101 97.5%);
 }
 .gradient-btn{
   background: 
         linear-gradient(#000000, #000000) padding-box,
-        linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%) ;
+        linear-gradient(90.13deg, #00cea8 1.9%, #cc0101 97.5%) ;
   background: 
   -webkit-linear-gradient(#000000, #000000) padding-box,
-  -webkit-linear-gradient(90.13deg,   #00cea8 1.9%, #bf61ff 97.5%) ;
+  -webkit-linear-gradient(90.13deg,   #00cea8 1.9%, #cc0101 97.5%) ;
       border: 1px solid transparent;
       display: inline-block;
-      box-shadow: 1px 2px 6px #bf61ff;
+      box-shadow: 1px 2px 6px #cc0101;
 }
 
 .orange-text-gradient {
@@ -215,7 +215,7 @@
 }
 
 .tooltip i{
-  color: #bf61ff;
+  color: #cc0101;
   font-size: 23px;
   border-radius: 100%;
   cursor: pointer;
@@ -290,7 +290,7 @@
   transform-origin: bottom right;
   transform: rotateZ(15deg);
   will-change: transform;
-  box-shadow: 10px 0 40px #bf61ff;
+  box-shadow: 10px 0 40px #cc0101;
 }
 .block-container .btn-front {
   position: absolute;

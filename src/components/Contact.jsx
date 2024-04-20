@@ -37,9 +37,9 @@ const Contact = () => {
       'template_53h3wht',
       {
         from_name: form.name,
-        to_name: 'Laiba Abbas',
+        to_name: 'Asif Nawaz Khan',
         from_email: form.email,
-        to_email: 'laibaabbasv@gmail.com',
+        to_email: 'Asifnawazkhan8@gmail.com',
         message: form.message
       },
       'GjvPZu-0dX2YGU3xq'
@@ -129,7 +129,7 @@ const Contact = () => {
 
         <button
           type="submit"
-          className='bg-[#915eff] py-3 px-8 outline-none
+          className='bg-[#cc0101] py-3 px-8 outline-none
           w-fit text-white font-bold shadow-md 
           shadow-primary rounded-xl'
         >
@@ -142,8 +142,8 @@ const Contact = () => {
         text-[17px] leading-[30px]'
           >Or Gmail Me Directly At&nbsp; 
             <a className='underline font-bold'
-              href="mailto:laibaabbasv@gmail.com">
-              laibaabbasv@gmail.com
+              href="asifnawazkhan8@gmail.com">
+              Asifnawakhan8@gmail.com
             </a>
           </motion.p>
         </form>
